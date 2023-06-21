@@ -42,7 +42,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("file_name", help="input file name", nargs="?", default="")
     args = parser.parse_args()
-    if args.file_input:
+    if args.file_name:
         _file_name = args.file_name
     else:
         _file_name = input("Enter file name: ")
