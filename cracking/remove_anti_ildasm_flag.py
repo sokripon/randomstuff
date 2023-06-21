@@ -1,3 +1,4 @@
+# Tested and ran with Python 3.10
 import argparse
 import mmap
 
