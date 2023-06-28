@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-16"?>
 <Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
   <RegistrationInfo>
-    <Date>2023-06-28T12:22:55.426835</Date>
+    <Date>2023-06-28T14:26:41.4697959</Date>
     <Author>DESKTOP-RAPHAEL\Raphael</Author>
     <Description>Starts the windows terminal hidden, needed for quake mode to work without having an actual Terminal open</Description>
     <URI>\Windows Terminal</URI>
   </RegistrationInfo>
   <Triggers>
-    <BootTrigger>
+    <LogonTrigger>
       <Enabled>true</Enabled>
-    </BootTrigger>
+    </LogonTrigger>
   </Triggers>
   <Principals>
     <Principal id="Author">
@@ -20,7 +20,7 @@
   </Principals>
   <Settings>
     <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
-    <DisallowStartIfOnBatteries>true</DisallowStartIfOnBatteries>
+    <DisallowStartIfOnBatteries>false</DisallowStartIfOnBatteries>
     <StopIfGoingOnBatteries>true</StopIfGoingOnBatteries>
     <AllowHardTerminate>false</AllowHardTerminate>
     <StartWhenAvailable>false</StartWhenAvailable>
